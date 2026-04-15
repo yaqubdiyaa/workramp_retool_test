@@ -1,0 +1,16 @@
+{
+  "rating1": {
+    "row": 9.6,
+    "height": 0.8,
+    "width": 4
+  },
+  "table2": {
+    "row": 1.6,
+    "height": 8,
+    "width": 7
+  },
+  "text1": {
+    "row": 0.8,
+    "height": 1
+  }
+}
