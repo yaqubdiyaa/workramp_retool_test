@@ -182,5 +182,10 @@
       max={5}
       value={4.5}
     />
+    <Text
+      id="text2"
+      value="👋 **THIS IS MY EDIT TO THE APP ON TEH NEW BRANCH!!!!}!**"
+      verticalAlign="center"
+    />
   </Frame>
 </Screen>
