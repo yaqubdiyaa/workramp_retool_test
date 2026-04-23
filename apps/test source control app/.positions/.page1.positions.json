@@ -17,5 +17,10 @@
     "row": 12,
     "col": 1,
     "height": 0.6
+  },
+  "text3": {
+    "row": 16,
+    "col": 1,
+    "height": 0.6
   }
 }

@@ -187,5 +187,10 @@
       value="👋 **THIS IS MY EDIT TO THE APP ON TEH NEW BRANCH!!!!}!**"
       verticalAlign="center"
     />
+    <Text
+      id="text3"
+      value="im changing stuff here to see if my source control deploymeent is working here!"
+      verticalAlign="center"
+    />
   </Frame>
 </Screen>
