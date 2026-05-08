@@ -1,2 +1,5 @@
 version: 1.0.0
 name: main
+workflows:
+  - uuid: 0109fd93-958c-41c0-8523-a99c7f808ee4
+    release: 0.0.6
