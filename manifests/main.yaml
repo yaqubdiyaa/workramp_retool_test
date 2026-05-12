@@ -4,6 +4,6 @@ workflows:
   - uuid: 0109fd93-958c-41c0-8523-a99c7f808ee4
     release: 0.0.6
   - uuid: 414f1c22-ff34-49b6-9d00-39a26870bff5
-    release: latest
+    release: 0.0.3
   - uuid: a6f16092-0d06-41a7-ab78-1fe752dde28a
     release: 0.0.7
