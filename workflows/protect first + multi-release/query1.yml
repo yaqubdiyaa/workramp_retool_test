@@ -1,16 +1,21 @@
-id: code1
+id: query1
 type: datasource
-subtype: JavascriptQuery
-resourceName: JavascriptQuery
+subtype: RESTQuery
+resourceName: e075d3d1-10dd-4a84-8471-cad10d771e07
+resourceDisplayName: dummy api test
 template:
   queryRefreshTime: ''
+  paginationLimit: ''
   allowedGroupIds: []
+  openAPIRequestBody: ''
   streamResponse: false
+  body: ''
   lastReceivedFromResourceAt: null
   isFunction: false
   functionParameters: null
   queryDisabledMessage: ''
   servedFromCache: false
+  openAPIResolvedSpec: ''
   offlineUserQueryInputs: ''
   functionDescription: null
   successMessage: ''
@@ -19,15 +24,12 @@ template:
   workflowParams: null
   resourceNameOverride: ''
   runWhenModelUpdates: true
+  paginationPaginationField: ''
   workflowRunExecutionType: sync
+  headers: ''
   showFailureToaster: true
-  query: |-
-    return [
-      { message: "Hello from Workflows" },
-      { message: "Click the Run (▶) button to execute this block" },
-      { message: "Drag from the green sequence port to connect a new block" },
-      { message: "Click the help (?) button to learn more" },
-    ];
+  paginationEnabled: false
+  query: ''
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
@@ -37,13 +39,12 @@ template:
   runWhenPageLoadsDelay: ''
   data: null
   importedQueryInputs: {}
-  _additionalScope: []
   isImported: false
   showSuccessToaster: true
   cacheKeyTtl: ''
   requestSentTimestamp: null
+  cookies: ''
   metadata: null
-  editorMode: sql
   queryRunTime: null
   changesetObject: ''
   offlineOptimisticResponse: null
@@ -52,43 +53,46 @@ template:
   confirmationMessage: null
   isFetching: false
   changeset: ''
+  openAPIOperationId: ''
   rawData: null
   queryTriggerDelay: '0'
   resourceTypeOverride: null
   watchedParams: []
   enableErrorTransformer: false
   showLatestVersionUpdatedWarning: false
+  paginationDataField: ''
   timestamp: 0
+  openAPIParams: '{}'
   evalType: script
   importedQueryDefaults: {}
   enableTransformer: false
   showUpdateSetValueDynamicallyToggle: true
+  version: 2
   overrideOrgCacheForUserCache: false
   runWhenPageLoads: false
   transformer: return data
   events: []
-  queryTimeout: '120000'
+  queryTimeout: '10000'
   workflowId: null
   requireConfirmation: false
+  type: GET
   queryFailureConditions: ''
   changesetIsObject: false
   enableCaching: false
   allowedGroups: []
+  bodyType: none
   offlineQueryType: None
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2026-05-12T15:30:50.096Z
+createdAt: 2026-05-12T17:41:50.285Z
 blockData:
   top: 48
-  left: 480
-  uuid: 777294c9-19d4-4b76-bfb0-eb0076cd10db
-  pluginId: code1
-  blockType: code
-  dimensions:
-    width: 400
-    height: 280
-  editorType: JavascriptQuery
-  resourceName: JavascriptQuery
+  left: 448
+  uuid: 0e4daa98-8996-497d-8e79-baebff471a44
+  pluginId: query1
+  blockType: default
+  editorType: RESTQuery
+  resourceName: e075d3d1-10dd-4a84-8471-cad10d771e07
   incomingOnSuccessEdges:
     - ef00251d-5e3c-4160-902b-3e7bc78bb46b
