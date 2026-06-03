@@ -31,7 +31,7 @@ template:
   headers: ''
   showFailureToaster: true
   paginationEnabled: false
-  query: select * from dummy_data
+  query: 'select * from sample_users '
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
