@@ -1,16 +1,20 @@
-id: workflow1
+id: query2
 type: datasource
-subtype: WorkflowRun
-resourceName: WorkflowRun
+subtype: RESTQuery
+resourceName: REST-WithoutResource
 template:
   queryRefreshTime: ''
+  paginationLimit: ''
   allowedGroupIds: []
+  openAPIRequestBody: ''
   streamResponse: false
+  body: ''
   lastReceivedFromResourceAt: null
   isFunction: false
   functionParameters: null
   queryDisabledMessage: ''
   servedFromCache: false
+  openAPIResolvedSpec: ''
   offlineUserQueryInputs: ''
   functionDescription: null
   successMessage: ''
@@ -19,9 +23,14 @@ template:
   workflowParams: null
   resourceNameOverride: ''
   runWhenModelUpdates: false
+  paginationPaginationField: ''
   workflowRunExecutionType: sync
+  headers: >-
+    [{"key":"X-Workflow-Api-Key","value":"retool_wk_cfce0968651844c7bfc201bafa358de1"}]
   showFailureToaster: true
-  query: ''
+  paginationEnabled: false
+  query: >-
+    https://api.retool.com/v1/workflows/583ca62b-c776-4d59-abcc-67a7eac424cd/startTrigger
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
@@ -35,8 +44,8 @@ template:
   showSuccessToaster: true
   cacheKeyTtl: ''
   requestSentTimestamp: null
+  cookies: ''
   metadata: null
-  editorMode: sql
   queryRunTime: null
   changesetObject: ''
   offlineOptimisticResponse: null
@@ -45,40 +54,46 @@ template:
   confirmationMessage: null
   isFetching: false
   changeset: ''
+  openAPIOperationId: ''
   rawData: null
   queryTriggerDelay: '0'
   resourceTypeOverride: null
   watchedParams: []
   enableErrorTransformer: false
   showLatestVersionUpdatedWarning: false
+  paginationDataField: ''
   timestamp: 0
+  openAPIParams: '{}'
   evalType: script
   importedQueryDefaults: {}
   enableTransformer: false
   showUpdateSetValueDynamicallyToggle: true
+  version: 2
   overrideOrgCacheForUserCache: false
   runWhenPageLoads: false
   transformer: return data
   events: []
   queryTimeout: '10000'
-  workflowId: 583ca62b-c776-4d59-abcc-67a7eac424cd
+  workflowId: null
   requireConfirmation: false
+  type: POST
   queryFailureConditions: ''
   changesetIsObject: false
   enableCaching: false
   allowedGroups: []
+  bodyType: json
   offlineQueryType: None
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2026-06-03T04:53:30.714Z
+createdAt: 2026-06-03T07:26:43.863Z
 blockData:
   top: 48
   left: 912
-  uuid: b61ef959-200d-45dd-8ec6-3097200374dc
-  pluginId: workflow1
+  uuid: 181881ba-ae95-4f37-83b5-4162b10b7fe5
+  pluginId: query2
   blockType: default
-  editorType: WorkflowRun
-  resourceName: WorkflowRun
+  editorType: RESTQuery
+  resourceName: REST-WithoutResource
   incomingOnSuccessEdges:
     - a324d313-3121-4d5e-938b-563f09c2fcb7
